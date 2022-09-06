@@ -5,5 +5,5 @@ export interface RegisterStudentByCsvParams {
 }
 
 export interface RegisterStudentByCsv {
-  execute: (params: RegisterStudentByCsvParams) => Promise<boolean>
+  execute: (params: RegisterStudentByCsvParams) => Promise<void>
 }
